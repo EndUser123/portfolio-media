@@ -1,8 +1,18 @@
 # portfolio-media
 
-[![Build Status](https://img.shields.io/github/actions/status/EndUser123/P?branch=main)](https://github.com/EndUser123/P/actions) [![Version](https://img.shields.io/pypi/v/portfolio-media)](https://pypi.org/project/portfolio-media/) [![Python](https://img.shields.io/pypi/pyversions/portfolio-media)](https://pypi.org/project/portfolio-media/) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+> AI-powered visual asset generation for GitHub repositories
 
-AI-powered visual asset generation for GitHub packages.
+[![Build Status](https://img.shields.io/github/actions/status/EndUser123/portfolio-media?branch=main)](https://github.com/EndUser123/portfolio-media/actions) [![Version](https://img.shields.io/pypi/v/portfolio-media)](https://pypi.org/project/portfolio-media/) [![Python](https://img.shields.io/pypi/pyversions/portfolio-media)](https://pypi.org/project/portfolio-media/) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+## 📺 Assets & Media
+
+Visual asset examples and explainer videos are available in the [assets/](./assets/) directory:
+
+- **Architecture Diagram**: See [assets/diagrams/architecture.md](./assets/diagrams/architecture.md) for system design overview
+- **Explainer Video**: Watch the [assets/videos/portfolio-media_explainer_pbs.mp4](./assets/videos/portfolio-media_explainer_pbs.mp4) for PBS-structured explainer (2:15)
+- **Example Gallery**: See [assets/examples/](./assets/examples/) for sample outputs from all providers
+
+Note: Media assets are generated using NotebookLM and Claude Code's built-in diagramming tools.
 
 ## Overview
 
@@ -32,32 +42,32 @@ pip install portfolio-media[all]
 ### Generate a Logo
 
 ```bash
-portfolio-media-logo \\
-    --package debugRCA \\
-    --description "Root cause analysis toolkit" \\
-    --output assets/logo/logo.png \\
-    --style minimalist \\
-    --color "#FF6B6B" \\
+portfolio-media-logo \
+    --package debugRCA \
+    --description "Root cause analysis toolkit" \
+    --output assets/logo/logo.png \
+    --style minimalist \
+    --color "#FF6B6B" \
     --provider gemini
 ```
 
 ### Generate an Architecture Diagram
 
 ```bash
-portfolio-media-diagram \\
-    --package debugRCA \\
-    --components "Analyzer,Verifier,Hypothesis Generator" \\
-    --output assets/diagrams/architecture.svg \\
+portfolio-media-diagram \
+    --package debugRCA \
+    --components "Analyzer,Verifier,Hypothesis Generator" \
+    --output assets/diagrams/architecture.svg \
     --flow TD
 ```
 
 ### Capture a Screenshot
 
 ```bash
-portfolio-media-screenshot \\
-    --url http://localhost:8000 \\
-    --output assets/screenshots/home.png \\
-    --width 1280 \\
+portfolio-media-screenshot \
+    --url http://localhost:8000 \
+    --output assets/screenshots/home.png \
+    --width 1280 \
     --height 720
 ```
 
@@ -146,3 +156,7 @@ This package integrates seamlessly with the `/portfolio` skill:
 ## License
 
 MIT
+
+## Repository
+
+https://github.com/EndUser123/portfolio-media
