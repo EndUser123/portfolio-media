@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-media",
+  "version": "0.1.0",
+  "description": "AI-powered visual asset generation for GitHub packages - automated logos, diagrams, and screenshots",
+  "author": {
+    "name": "CSF Development"
+  },
+  "repository": "https://github.com/csf/portfolio-media",
+  "license": "MIT",
+  "keywords": ["portfolio", "media", "logo", "diagram", "screenshot", "ai", "generation", "assets"]
+}

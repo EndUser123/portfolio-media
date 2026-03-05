@@ -1,0 +1,133 @@
+{
+  "name": "portfolio-media",
+  "children": [
+    {
+      "name": "Overview",
+      "children": [
+        {
+          "name": "AI-powered asset generation"
+        },
+        {
+          "name": "Automated professional visuals"
+        }
+      ]
+    },
+    {
+      "name": "Core Features",
+      "children": [
+        {
+          "name": "Logos",
+          "children": [
+            {
+              "name": "Gemini"
+            },
+            {
+              "name": "OpenRouter"
+            },
+            {
+              "name": "GLM"
+            }
+          ]
+        },
+        {
+          "name": "Diagrams",
+          "children": [
+            {
+              "name": "Mermaid architecture"
+            }
+          ]
+        },
+        {
+          "name": "Screenshots",
+          "children": [
+            {
+              "name": "Automated browser capture"
+            },
+            {
+              "name": "Playwright integration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Providers",
+      "children": [
+        {
+          "name": "Gemini",
+          "children": [
+            {
+              "name": "Imagen"
+            },
+            {
+              "name": "Best overall"
+            }
+          ]
+        },
+        {
+          "name": "OpenRouter",
+          "children": [
+            {
+              "name": "Flux/SDXL"
+            },
+            {
+              "name": "Pay-per-use"
+            }
+          ]
+        },
+        {
+          "name": "Claude",
+          "children": [
+            {
+              "name": "Diagram code generation"
+            }
+          ]
+        },
+        {
+          "name": "GLM",
+          "children": [
+            {
+              "name": "Zhipu AI"
+            }
+          ]
+        },
+        {
+          "name": "Perplexity",
+          "children": [
+            {
+              "name": "Prompt optimization"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technical Details",
+      "children": [
+        {
+          "name": "Python API"
+        },
+        {
+          "name": "Environment Variables"
+        },
+        {
+          "name": "Asset Organization"
+        },
+        {
+          "name": "MIT License"
+        }
+      ]
+    },
+    {
+      "name": "Integrations",
+      "children": [
+        {
+          "name": "GitHub packages"
+        },
+        {
+          "name": "/portfolio skill"
+        }
+      ]
+    }
+  ]
+}
